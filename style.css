@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Lemonmilk";
+  src: url("/fonts/LEMONMILK-Regular.otf") format("truetype");
+}
+
+body {
+  background-color: rgb(14, 14, 14);
+  font-family: "Lemonmilk", sans-serif;
+  color: rgb(228, 228, 228);
+  margin-top: 80px;
+}
+
+.welcome_button {
+  background-color: rgb(240, 46, 170, 0.5);
+  color: white;
+  font-size: 48px;
+  border: none;
+  padding: 8px 80px;
+  cursor: pointer;
+  font-family: "Lemonmilk", sans-serif;
+  transition: background-color 0.5s ease;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  transition: all 0.5s ease;
+}
+
+.welcome_button:hover {
+  background-color: rgba(240, 46, 170, 0.6);
+}
+
+.absolute_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text1 {
+  opacity: 0%;
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 1.3vw;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.centermargin {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box {
+  opacity: 0%;
+  transition: all 4s ease;
+  width: 15vw;
+  height: 7vw;
+  padding: 10px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px -5px,
+    rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px,
+    rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttontoright {
+  position: relative;
+  text-align: right;
+  right: 22px;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: rgb(65, 65, 65);
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.light-mode-btn {
+  background-color: rgba(175, 175, 175, 0.5);
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-family: "Lemonmilk", sans-serif;
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.light-mode-btn:hover {
+  background-color: rgba(244, 244, 244, 0.6);
+}
+
+.dark-mode-btn {
+  background-color: rgba(91, 91, 91, 0.5);
+  color: black;
+  font-size: 16px;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-family: "Lemonmilk", sans-serif;
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.dark-mode-btn:hover {
+  background-color: rgba(24, 24, 24, 0.6);
+}
+
+#color-button {
+  position: absolute;
+  background-color: rgb(240, 46, 170, 0.5);
+  color: white;
+  font-size: 10px;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-family: "Lemonmilk", sans-serif;
+  transition: background-color 0.5s ease;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  transition: all 0.5s ease;
+  opacity: 0%;
+}
+
+#text2 {
+  opacity: 0%;
+  transition: background-color 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 1.3vw;
+}
